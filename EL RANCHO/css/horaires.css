@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin : 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color:white;
+}
+header{
+    background-color: black;
+    padding: 20px;
+}
+main{
+    background-color: black;
+}
+main p{
+    color: white;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 45px;
+    padding-left: 22%;
+    padding-right: 8%;
+    color:white;
+    font-size: 18px;
+}
+.heroo{
+    height :100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.nav{
+    text-align: start;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    justify-content: start;
+    padding-left: 22%;
+    padding-right: 8%;
+    color:white;
+    font-size: 18px;
+}
