@@ -1,113 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" type ="text/css" href = "css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio Website</title>
+		<!-- ajout favicon (image onglet) -->
+		<link rel="icon" type="image/png" href="./img/favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link
+		href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+		rel="stylesheet"
+		/>
+		<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+		integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+		crossorigin="anonymous"
+		referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body>
+		<div class="hero">
+		<nav>
+			<img src="img/logo-solo3.png" alt="" class="logo" />
+			<ul>
+			<li><a href="#">Accueil</a></li>
+			<li><a href="html/horaires.html">Horaires</a></li>
+			<li><a href="html/lacarte.html">La Carte</a></li>
+			<li><a href="html/dransard.html">Le Dransard</a></li>
+			<li><a href="html/rancho.html">Le Rancho</a></li>
+			</ul>
 
-</head>
-<body>
-    <div class="hero">
-        <nav>
-            <img src="img/logo-solo3.png" alt="" class="logo">
-            <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="html/horaires.html">Horaires</a></li>
-                <li><a href="html/lacarte.html">La Carte</a></li>
-                <li><a href="html/dransard.html">Le Dransard</a></li>
-                <li><a href="html/rancho.html">Le Rancho</a></li>
-            </ul>
-        
-            <a href="#" class = "btn">Réserver</a>
-        </nav>
-        <div class="content">
-          <h4>Bonjour, bienvenue à</h4>
-          <h1>Le <span>Rancho</span></h1>
-          <h3>Venez passer du bon temps à nos côtés</h3>
-          <div class="newslatter">
-            <form>
-                <input type="email" name ="email" id="mail" placeholder="Entrez Votre Email">
-                <input type="soumettre" name ="soumettre" value ="Commençons">
-            </form>
-          </div>
-        </div>
-    </div>
+			<!-- Bouton pour fomulaire -->
+			<a href="./formulaire/formulaire.html" id="toConnect">Se connecter</a>
+			<a href="#" class="btn">Réserver</a>
+		</nav>
+		<div class="content">
+			<h4>Bonjour, bienvenue à</h4>
+			<h1>Le <span>Rancho</span></h1>
+			<h3>Venez passer du bon temps à nos côtés</h3>
+			<div class="newslatter">
+			<form>
+				<input
+				type="email"
+				name="email"
+				id="mail"
+				placeholder="Entrez Votre Email"
+				/>
+				<input type="soumettre" name="soumettre" value="Commençons" />
+			</form>
+			</div>
+		</div>
+		</div>
 
-    <section class="about">
-    <div class="main">
-        <img class="cv" src="img/5ede6de8d8460_904611_10151360433121811_761062684_o.jpeg">
-        <div class="about-text">
-            <h2>À propos de nous</h2>
-            <h5>Bar / Restaurant</h5>
-            <p>La boîte incontournable de Royan. Le rancho est le complexe idéal pour passer une nuit de folie, avec une seule idée en     tête: s’amuser !<br>
-            3 Clubs : Le Petit Club Intimiste et electro, Le Grand Club Généraliste, L'Indiana années 80 débridées et décalées.
-            70% de terrasses extérieures, 8 Bars, Burger & Shop.</p>
-            <button type="button">Découvrir</button>
-        </div>
-    </div>
-    </section>
-<div class="service">
- <div class="title">
-   <h2>Nos Services</h2>
- </div>
- <div class="box">
-    <div class="card">
-        <i class="fa-solid fa-utensils"></i>
-        <h5>Dégustations</h5>
-        <div class="pra">
-            <p>Vous trouverez ci-dessous la carte de toutes nos dégustations, allant des plats d'huitres fraiches accompagnés de frites maisons aux burger incontournable confectionnés par nos cuisiniers talentueux !</p>
-            <p style="text-align: center;">
-              <a class="button" href="#">Lire la suite</a>
-            </p>
-        </div>
-    </div>
+		<section class="about">
+		<div class="main">
+			<img
+			class="cv"
+			src="img/5ede6de8d8460_904611_10151360433121811_761062684_o.jpeg"
+			/>
+			<div class="about-text">
+			<h2>À propos de nous</h2>
+			<h5>Bar / Restaurant</h5>
+			<p>
+				La boîte incontournable de Royan. Le rancho est le complexe idéal
+				pour passer une nuit de folie, avec une seule idée en tête: s’amuser
+				!<br />
+				3 Clubs : Le Petit Club Intimiste et electro, Le Grand Club
+				Généraliste, L'Indiana années 80 débridées et décalées. 70% de
+				terrasses extérieures, 8 Bars, Burger & Shop.
+			</p>
+			<button type="button">Découvrir</button>
+			</div>
+		</div>
+		</section>
+		<div class="service">
+		<div class="title">
+			<h2>Nos Services</h2>
+		</div>
+		<div class="box">
+			<div class="card">
+			<i class="fa-solid fa-utensils"></i>
+			<h5>Dégustations</h5>
+			<div class="pra">
+				<p>
+				Vous trouverez ci-dessous la carte de toutes nos dégustations,
+				allant des plats d'huitres fraiches accompagnés de frites maisons
+				aux burger incontournable confectionnés par nos cuisiniers
+				talentueux !
+				</p>
+				<p style="text-align: center">
+				<a class="button" href="#">Lire la suite</a>
+				</p>
+			</div>
+			</div>
 
-    <div class="card">
-        <i class="fa-solid fa-mug-hot"></i>
-        <h5>Soft</h5>
-        <div class="pra">
-            <p>Vous trouverez ci-dessous la carte de toutes nos boissons non alcoolisées, parce que la fête est plus folle sans alcool ! Nous proposons aussi bien des boissons chaudes que des cocktails trés rafraîchissant !</p>
-            <p style="text-align: center;">
-              <a class="button" href="#">Lire la suite</a>
-            </p>
-        </div>
-    </div>
+			<div class="card">
+			<i class="fa-solid fa-mug-hot"></i>
+			<h5>Soft</h5>
+			<div class="pra">
+				<p>
+				Vous trouverez ci-dessous la carte de toutes nos boissons non
+				alcoolisées, parce que la fête est plus folle sans alcool ! Nous
+				proposons aussi bien des boissons chaudes que des cocktails trés
+				rafraîchissant !
+				</p>
+				<p style="text-align: center">
+				<a class="button" href="#">Lire la suite</a>
+				</p>
+			</div>
+			</div>
 
-    <div class="card">
-        <i class="fa-solid fa-martini-glass-citrus"></i>
-        <h5>Boissons alcoolisées</h5>
-        <div class="pra">
-            <p>Vous trouverez ci-dessous la carte de toutes nos boissons alcoolisées, allant du verre de vin rouge, blanc ou rosé à nos meilleurs whiskeys japonais à boire en rencar, famille où entre amis.</p>
-            <p style="text-align: center;">
-              <a class="button" href="#">Lire la suite</a>
-            </p>
-        </div>
-    </div>
- </div>
- </div>
+			<div class="card">
+			<i class="fa-solid fa-martini-glass-citrus"></i>
+			<h5>Boissons alcoolisées</h5>
+			<div class="pra">
+				<p>
+				Vous trouverez ci-dessous la carte de toutes nos boissons
+				alcoolisées, allant du verre de vin rouge, blanc ou rosé à nos
+				meilleurs whiskeys japonais à boire en rencar, famille où entre
+				amis.
+				</p>
+				<p style="text-align: center">
+				<a class="button" href="#">Lire la suite</a>
+				</p>
+			</div>
+			</div>
+		</div>
+		</div>
 
- <!------Contact Me------>
- <div class="contact-me">
-    <p>N'hésitez pas à vous créer un compte pour être tenu informés des nouveautés !</p>
-    <a class="button-two" href="#">S'inscrire</a>
- </div>
+		<!------Contact Me------>
+		<div class="contact-me">
+		<p>
+			N'hésitez pas à vous créer un compte pour être tenu informés des
+			nouveautés !
+		</p>
+		<a class="button-two" href="#">S'inscrire</a>
+		</div>
 
- <!---------footer start------->
- <footer>
-    <p>Le Rancho</p>
-    <p>Afin d'accéder à nos différents réseaux - merci de cliquer sur les liens ci-dessous:</p>
-    <div class="social">
-        <a href="https://www.facebook.com/LeRanchoStPalais/"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="https://www.linkedin.com/in/jason-farcy-47826925a/"><i class="fa-brands fa-linkedin-in"></i></a>
-        <a href="https://dribbble.com/Jason444"><i class="fa-brands fa-instagram"></i></a>
-    </div>
-    <p class="end">© Le Rancho<br>
-        L'abus d'alcool est dangereux pour la santé - Consommez avec modération
-    </p>
- </footer>
-</body>
+		<!---------footer start------->
+		<footer>
+		<p>Le Rancho</p>
+		<p>
+			Afin d'accéder à nos différents réseaux - merci de cliquer sur les liens
+			ci-dessous:
+		</p>
+		<div class="social">
+			<a href="https://www.facebook.com/LeRanchoStPalais/"
+			><i class="fa-brands fa-facebook-f"></i
+			></a>
+			<a href="https://www.linkedin.com/in/jason-farcy-47826925a/"
+			><i class="fa-brands fa-linkedin-in"></i
+			></a>
+			<a href="https://dribbble.com/Jason444"
+			><i class="fa-brands fa-instagram"></i
+			></a>
+		</div>
+		<p class="end">
+			© Le Rancho<br />
+			L'abus d'alcool est dangereux pour la santé - Consommez avec modération
+		</p>
+		</footer>
+	</body>
 </html>

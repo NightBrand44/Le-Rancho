@@ -317,16 +317,17 @@ footer p:nth-child(2){
     
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Bouton se connecter */
+#toConnect {
+	background-color: whitesmoke;
+	color: #e22c96;
+	text-decoration: none;
+	border: 2px solid #e22c96;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s;
+}
+#toConnect:hover{
+	transform: scale(1.2);
+}
